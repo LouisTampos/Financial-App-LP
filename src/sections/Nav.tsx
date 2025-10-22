@@ -29,7 +29,7 @@ function Nav() {
                   <img
                     src={Diagram}
                     alt="Diagram Logo"
-                    className="h-auto w-16"
+                    className="h-auto w-20"
                   />
                 }
               />
