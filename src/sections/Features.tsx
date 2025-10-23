@@ -75,8 +75,11 @@ function Features() {
             </p>
           </div>
 
-          <div className="m-auto mt-10 max-w-72 md:mx-10 md:w-1/2 lg:mx-0">
-            <img src={Frames2} alt="Finance Me App" />
+          <div className="m-auto max-w-96 md:mt-36 md:w-1/2">
+            <img
+              src={Frames2}
+              alt="Frame displaying logos of various payment solutions"
+            />
           </div>
         </div>
       </article>
