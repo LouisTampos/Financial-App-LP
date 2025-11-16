@@ -6,7 +6,7 @@ function Reviews() {
     {
       src: "https://images.pexels.com/photos/13120756/pexels-photo-13120756.jpeg",
       text: '"Napakadaling gamitin, less hassle, quick and easy talaga broskie!"',
-      name: "Marcus Andres",
+      name: "Andrew Ramirez",
       country: "Pampanga, PH",
     },
     {
