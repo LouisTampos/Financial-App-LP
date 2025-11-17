@@ -1,6 +1,8 @@
 import Diagram from "../assets/logos/diagram.png";
-import StoreLinks from "../common/StoreLinks";
+import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 import Twitter from "../assets/logos/icons8-twitterx.svg";
+import Facebook from "../assets/logos/icons8-facebook.svg";
+import LinkedIn from "../assets/logos/icons8-linkedin.svg";
 
 function Footer() {
   return (
@@ -30,8 +32,8 @@ function Footer() {
             </div>
           </div>
           <div className="w-fit">
-            <h2>Get the ap</h2>
-            <StoreLinks />
+            <h2>Get the app</h2>
+            <StoreLinks type={BtnTypes.Variant} />
           </div>
         </div>
         <div className="mt-14 flex justify-between border-t-2 border-t-gray-700 pt-10">
@@ -41,6 +43,12 @@ function Footer() {
           <div className="flex gap-6">
             <a href="https://twitter.com" target="_blank">
               <img src={Twitter} alt="Twitter logo" />
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <img src={Facebook} alt="Facebook logo" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img src={LinkedIn} alt="linkedin logo" />
             </a>
           </div>
         </div>
