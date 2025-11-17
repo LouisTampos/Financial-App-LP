@@ -1,4 +1,7 @@
 import Diagram from "../assets/logos/diagram.png";
+import StoreLinks from "../common/StoreLinks";
+import Twitter from "../assets/logos/icons8-twitterx.svg";
+
 function Footer() {
   return (
     <section className="bg-gray-800">
@@ -12,11 +15,33 @@ function Footer() {
             <div className="flex flex-col gap-2">
               <p className="text-gray-400">Product</p>
               <a href="#">Overview</a>
-              <a href="#">Overview</a>
-              <a href="#">Overview</a>
-              <a href="#">Overview</a>
-              <a href="#">Overview</a>
+              <a href="#">Features</a>
+              <a href="#">Solutions</a>
+              <a href="#">Contact</a>
+              <a href="#">Releases</a>
             </div>
+            <div className="flex flex-col gap-2">
+              <p className="text-gray-400">Resources</p>
+              <a href="#">Blog</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Events</a>
+              <a href="#">Help Centre</a>
+              <a href="#">Support</a>
+            </div>
+          </div>
+          <div className="w-fit">
+            <h2>Get the ap</h2>
+            <StoreLinks />
+          </div>
+        </div>
+        <div className="mt-14 flex justify-between border-t-2 border-t-gray-700 pt-10">
+          <p className="w-[16ch] text-gray-400 md:w-full">
+            &copy; 2025 Finance Me. All rights reserved.
+          </p>
+          <div className="flex gap-6">
+            <a href="https://twitter.com" target="_blank">
+              <img src={Twitter} alt="Twitter logo" />
+            </a>
           </div>
         </div>
       </div>
