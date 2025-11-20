@@ -1,4 +1,4 @@
-import StoreLinks from "../common/StoreLinks";
+import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 import Phone from "../assets/mockup.svg";
 import HeroImage2 from "../assets/HeroImage2.jpg";
 
@@ -13,7 +13,7 @@ function Hero() {
           Take control of your finances anytime, anywhere with Finance Me. Spend
           it wisely, use Finance Me!
         </p>
-        <StoreLinks />
+        <StoreLinks type={BtnTypes.Standard} />
       </div>
       <div className="md:w-3/6 xl:mb-12 xl:overflow-hidden">
         <img
